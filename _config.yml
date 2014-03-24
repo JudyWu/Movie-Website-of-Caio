@@ -1,7 +1,8 @@
-name: " "
-description: " "
+name: "Caio's website"
+description: "The website contains Caio's movies."
 
 url: "http://localhost:4000"
+baseurl: "http://Caio-Ribeiro-Films"
 
 paginate: 20 
 

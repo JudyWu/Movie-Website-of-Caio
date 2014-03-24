@@ -1,22 +1,47 @@
 $(document).ready(function() {
+
+	$('#content').css('opacity', '0');
+	$('#content').css('display', 'block');
+	$('#content').hover(function() {
+		$('#content').stop().animate({opacity:1}, 'slow');
+	}, function() {
+		$('#content').stop().animate({opacity:0}, 'slow');
+
+	});
+
 	$('.my-sticky-element').waypoint('sticky');
 
-	$('#picture1').waypoint(function() {
-		$('#flower').toggleClass('highlight');
+
+	$('.dropdownn-toggle').dropdown();
+
+
+	$('#sometime_in_august').waypoint(function() {
+		$('#sometime').toggleClass('highlight');
+		
 	});
 
-    $('#picture2').waypoint(function() {
-		$('#river').toggleClass('highlight');
+    $('#letters_from_monte').waypoint(function() {
+		$('#letters').toggleClass('highlight');
+		
 	});
 
-	$('#picture3').waypoint(function() {
-		$('#fire_fly').toggleClass('highlight');
+	$('#two_lovers').waypoint(function() {
+		$('#lovers').toggleClass('highlight');
+		
 	});
 
-	$('#picture4').waypoint(function() {
-		$('#sea_side').toggleClass('highlight');
+	$('#the_realm').waypoint(function() {
+		$('#realm').toggleClass('highlight');
+		
 	});
+
+
+    $('#sometime_in_august').waypoint(function() {
+        
+        $('#mid').toggleClass('showUp')
+    });
 	
+
 });
 
 
