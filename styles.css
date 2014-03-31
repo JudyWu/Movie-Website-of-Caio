@@ -97,15 +97,15 @@
     font-size: 50px; }
 
 #sometime_in_august {
-  background: black;
-  color: #be4c3d; }
+  background: #fba827;
+  color: black; }
   #sometime_in_august .img-thumbnail {
-    background: black; }
+    background: #fba827; }
   #sometime_in_august p {
     padding-top: 30px; }
 
 #letters_from_monte {
-  background: #2b7e7b;
+  background: #16a79d;
   color: #eaf6e3; }
   #letters_from_monte .img-thumbnail {
     background: #eaf6e3; }
@@ -113,16 +113,18 @@
     padding-top: 30px; }
 
 #two_lovers {
-  background: black;
-  color: #c2497d; }
+  background: #ee4b3e;
+  color: black; }
   #two_lovers .img-thumbnail {
-    background: black; }
+    background: #ee4b3e; }
   #two_lovers p {
     padding-top: 30px; }
 
 #the_realm {
-  background: #e5e5e5;
-  color: #353535; }
+  background: #623f96;
+  color: white; }
+  #the_realm .thumbnail {
+    background: black; }
 
 #contact_page h3 {
   font-family: "Tangerine", cursive !important;
@@ -143,19 +145,19 @@ h2 {
   z-index: 2; }
 
 .highlight {
-  background: #7bd3c8 !important;
+  background: #fee202 !important;
   text-color: #90EE90 !important; }
 
 .showUp {
   visibility: visible !important; }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-  background-color: #7bd3c8;
+  background-color: #fee202;
   -moz-border-radius: 100px / 90px;
   -webkit-border-radius: 100px / 90px;
   border-radius: 100px / 90px;
   background-image: none;
   filter: none; }
 
-.thumbnail {
-  background: url("background_patterns/binding_dark/binding_dark_@2X.png") repeat center center fixed; }
+.btn-primary .buttonBackground {
+  color: #fee202; }

@@ -6,7 +6,7 @@ $text-font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif
 
 $primary-color: #333; //black
 $text-color: #000000; //black
-$highlight-color: #7bd3c8;//#b6cbe7;//#428bca;//#FFE4E1 pink
+$highlight-color: #fee202;//#fcdf15;//#7bd3c8;//#b6cbe7;//#428bca;//#FFE4E1 pink
 $page-background-color: #B0E0E6 ; //light blue
 $even_page-text-color: white;  //#483D8B
 $odd_page_text_color: darken(#000, 50%);
@@ -191,12 +191,12 @@ nav {
   }
 }
 #sometime_in_august {
-  background: black;//lighten(#000, 15%);//#fdfefd;//#eaf6e3;
-  color: #be4c3d;//#2b7e7b;
+  background: #fba827;//lighten(#000, 15%);//#fdfefd;//#eaf6e3;
+  color: black;//#fba827;//#be4c3d;//#2b7e7b;
 
 
   .img-thumbnail {
-    background: black;//lighten(#000, 15%);
+    background: #fba827;//black;//lighten(#000, 15%);
   }
   p {
     padding-top: 30px; 
@@ -204,7 +204,7 @@ nav {
 }
 
 #letters_from_monte {
-  background: #2b7e7b;
+  background: #16a79d;//#2b7e7b;
   color: #eaf6e3;
   // -webkit-transition: all 1s ease-in-out;
   // -moz-transition: all 1s ease-in-out;
@@ -221,10 +221,10 @@ nav {
 }
 
 #two_lovers {
-  background: black;//lighten(#000, 15%);// #c2497d;//#cb8a64;
-  color: #c2497d;//#cb8a64;
+  background: #ee4b3e;//#c2497d;//lighten(#000, 15%);// #c2497d;//#cb8a64;
+  color: black;//#cb8a64;
   .img-thumbnail {
-    background:  black;//lighten(#000, 15%);
+    background:  #ee4b3e;//lighten(#000, 15%);
   }
   p {
     padding-top: 30px; 
@@ -232,8 +232,14 @@ nav {
 }
 
 #the_realm {
-  background: #e5e5e5;//#cccccc;
-  color: #353535;//#2f2f2f;
+  background: lighten(#3f2860, 15%); //#ffd464;//#293e6a;//#3b5998;//#e5e5e5;//#cccccc;
+  color: white;//#f4f4f2;//#353535;//#2f2f2f;
+  .thumbnail {
+  
+    //background: url('background_patterns/binding_dark/binding_dark_@2X.png') repeat center center fixed;
+    background: black;//#293e6a;//#ffd464;
+  }
+
   
 }
 
@@ -294,13 +300,12 @@ h2 {
  
 
 }
-
-
-.thumbnail {
+.btn-primary {
+  .buttonBackground {
+    color: $highlight-color;
+  }
   
-  background: url('background_patterns/binding_dark/binding_dark_@2X.png') repeat center center fixed;
 }
-
 
 
 
