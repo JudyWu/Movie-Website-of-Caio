@@ -1,163 +1,121 @@
 #main {
-  color: white;
   width: 100%;
-  height: 100%;
-  background-color: #2b7e7b; }
-  #main h1 {
-    font-family: "Cookie", Helvetica, sans-serif;
-    font-size: 60px;
-    margin-top: 0;
-    margin-bottom: 0;
-    padding: 25px 30px 0 30px; }
+  height: 100%; }
   #main nav {
-    float: right;
-    font-family: "Cookie", Helvetica, sans-serif;
-    font-size: 25px; }
+    font-family: "Just Another Hand", Helvetica, sans-serif; }
     #main nav ul {
-      margin-top: -50px;
-      margin-right: 30px;
-      padding: 0; }
+      display: inline-block;
+      list-style-type: none;
+      padding: 10px 10px; }
       #main nav ul li {
-        display: inline-block;
-        font-size: 20px;
-        background: white;
-        -moz-border-radius: 100px / 90px;
-        -webkit-border-radius: 100px / 90px;
-        border-radius: 100px / 90px; }
+        font-size: 30px; }
         #main nav ul li a {
           display: block;
-          padding: 6px 12px;
-          text-decoration: none;
-          color: #2b7e7b !important; }
-
-.dropdown-menu {
-  margin-top: 0 !important; }
-
-#mid {
-  visibility: collapse; }
-  #mid li {
-    display: inline-block;
-    list-style-type: none;
-    background: #333333;
-    -moz-border-radius: 100px / 90px;
-    -webkit-border-radius: 100px / 90px;
-    border-radius: 100px / 90px; }
-    #mid li a {
-      display: block;
-      padding: 6px 12px;
-      text-decoration: none;
-      color: white !important; }
+          line-height: 120%;
+          padding: 15px 8px;
+          color: white; }
 
 #content {
-  text-align: center;
-  font-size: 150%; }
-  #content strong {
-    font-size: 300%; }
+  text-align: center; }
 
 #biography {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 16px; }
-  #biography h2 {
-    font-family: "Cookie", Helvetica, sans-serif;
-    font-size: 100px; }
-
-#biography {
-  background: url("background_patterns/binding_dark/binding_dark_@2X.png") repeat center center fixed;
-  opacity: 0.95; }
-
-.even_pages {
-  text-align: center;
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 100px 25px;
-  background: url("background_patterns/binding_dark/binding_dark_@2X.png") repeat center center fixed;
-  opacity: 0.95;
+  font-size: 16px;
   color: white;
   line-height: 160%;
-  letter-spacing: 0.5px;
-  vertical-align: middle;
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
-  .even_pages h2 {
-    font-family: "Tangerine", cursive; }
+  letter-spacing: 0.5px; }
+  #biography h2 {
+    font-family: futura;
+    font-size: 80px; }
+  #biography a {
+    font-family: futura;
+    font-size: 14px;
+    color: #ffad33; }
 
-.odd_pages {
-  margin-top: 0;
-  margin-bottom: 0;
-  padding: 100px 25px;
+#sometime_in_august p, #sometime_in_august h5 {
+  padding-top: 50px; }
+#sometime_in_august ul li {
+  display: inline-block;
+  list-style-type: none; }
+#sometime_in_august blockquote p {
+  font-family: "Cookie", Helvetica, sans-serif;
+  text-align: center;
+  font-size: 50px; }
+#sometime_in_august blockquote footer {
+  float: right; }
+  #sometime_in_august blockquote footer a {
+    font-family: futura;
+    font-size: 16px;
+    color: #ffad33; }
+
+#letters_from_monte p, #letters_from_monte table {
+  padding-top: 80px; }
+#letters_from_monte blockquote p {
+  font-family: "Cookie", Helvetica, sans-serif;
+  text-align: center;
+  font-size: 70px; }
+#letters_from_monte blockquote footer {
+  float: right; }
+  #letters_from_monte blockquote footer a {
+    font-family: futura;
+    font-size: 16px;
+    color: #ffad33; }
+#letters_from_monte span {
+  padding-top: 75px; }
+#letters_from_monte table td {
+  border: 5px;
+  padding-top: 80px; }
+
+#two_lovers p {
+  padding-top: 50px; }
+#two_lovers ul li {
+  display: inline-block;
+  list-style-type: none; }
+
+#the_realm h4, #the_realm p {
+  color: black;
+  font-family: "Just Another Hand", Helvetica, sans-serif; }
+
+.float_right {
+  float: right; }
+
+.vidoe_pages {
+  background: black;
+  opacity: 0.95;
+  text-align: center;
+  padding: 80px 25px; }
+  .vidoe_pages iframe {
+    height: 500px;
+    width: 700px; }
+
+.content_pages {
+  background: black;
+  color: white;
+  padding: 80px 25px;
   line-height: 160%;
   letter-spacing: 0.5px;
-  vertical-align: middle;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 14px; }
-  .odd_pages h2 {
-    font-family: "Cookie", Helvetica, sans-serif;
-    font-size: 100px; }
-  .odd_pages h4 {
-    font-family: "Cookie", Helvetica, sans-serif;
+  font-size: 16px; }
+  .content_pages h2 {
+    font-family: futura;
+    font-size: 80px;
+    color: #ff9900;
+    padding: 20px 5px 40px 5px; }
+  .content_pages h4 {
+    font-family: futura;
     font-size: 50px; }
+  .content_pages h5 {
+    font-size: 18px; }
 
-#sometime_in_august {
-  background: #fba827;
-  color: black; }
-  #sometime_in_august .img-thumbnail {
-    background: #fba827; }
-  #sometime_in_august p {
-    padding-top: 30px; }
-
-#letters_from_monte {
-  background: #16a79d;
-  color: #eaf6e3; }
-  #letters_from_monte .img-thumbnail {
-    background: #eaf6e3; }
-  #letters_from_monte p {
-    padding-top: 30px; }
-
-#two_lovers {
-  background: #ee4b3e;
-  color: black; }
-  #two_lovers .img-thumbnail {
-    background: #ee4b3e; }
-  #two_lovers p {
-    padding-top: 30px; }
-
-#the_realm {
-  background: #623f96;
-  color: white; }
-  #the_realm .thumbnail {
-    background: black; }
-
-#contact_page h3 {
-  font-family: "Tangerine", cursive !important;
-  font-size: 50px !important; }
-
-h2 {
-  margin: 0;
-  padding: 20px 5px 40px 5px;
-  text-shadow: 2px 2px 7px; }
-
-#the_realm .pictures_display h4, #the_realm .pictures_display p {
-  color: white; }
+a:hover {
+  text-decoration: none; }
 
 .stuck {
-  top: 15px;
-  left: 5px;
+  top: 50px;
+  left: 25px;
   position: fixed;
   z-index: 2; }
 
 .highlight {
-  background: #fee202 !important;
-  text-color: #90EE90 !important; }
-
-.showUp {
-  visibility: visible !important; }
-
-.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
-  background-color: #fee202;
-  -moz-border-radius: 100px / 90px;
-  -webkit-border-radius: 100px / 90px;
-  border-radius: 100px / 90px;
-  background-image: none;
-  filter: none; }
-
-.btn-primary .buttonBackground {
-  color: #fee202; }
+  background: #ff9900;
+  color: black !important; }
