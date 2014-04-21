@@ -26,6 +26,7 @@
   letter-spacing: 0.5px; }
   #biography h2 {
     font-family: futura;
+    color: #ff9900;
     font-size: 80px; }
   #biography a {
     font-family: futura;
@@ -119,3 +120,14 @@ a:hover {
 .highlight {
   background: #ff9900;
   color: black !important; }
+
+.slide {
+  position: relative; }
+
+.slide .inner {
+  position: absolute;
+  left: 0;
+  bottom: 0; }
+
+.display-visible {
+  display: visible; }
