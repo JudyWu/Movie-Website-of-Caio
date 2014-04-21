@@ -229,7 +229,15 @@ a:hover {
   position: absolute;
   left: 0;
   bottom: 0;
+  
+
 }
+#hidden_comment_biography {
+  p{
+    height: 380px;
+    max-height: 380px;
+  }
+} 
 
 .display-visible {
   display: visible;

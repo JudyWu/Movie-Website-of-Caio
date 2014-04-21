@@ -35,7 +35,6 @@ $(document).ready(function() {
     	comment.hover(function() {
     		
     		if($(commentId).is(':hidden')) {
-    			console.log("HIDDEN");
     			$(commentId).slideDown('slow');
     			$(commentId).css('visibility', 'visible');
     		}
