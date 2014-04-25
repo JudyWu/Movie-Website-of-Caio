@@ -148,10 +148,16 @@ $line-height: 160%;
 }
 
 #the_realm  {
-  h4, p {
+  h4 {
     color: black;
     font-family: $nav-font;
+
   }   
+  p {
+    font-size: 18px;
+    color: black;
+    font-family: $text-font;
+  }
 }
 
 .float_right {

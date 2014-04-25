@@ -73,9 +73,13 @@
   display: inline-block;
   list-style-type: none; }
 
-#the_realm h4, #the_realm p {
+#the_realm h4 {
   color: black;
   font-family: "Just Another Hand", Helvetica, sans-serif; }
+#the_realm p {
+  font-size: 18px;
+  color: black;
+  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
 
 .float_right {
   float: right; }
