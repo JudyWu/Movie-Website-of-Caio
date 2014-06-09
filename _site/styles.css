@@ -35,9 +35,14 @@
 
 #sometime_in_august p, #sometime_in_august h5 {
   padding-top: 50px; }
-#sometime_in_august ul li {
-  display: inline-block;
-  list-style-type: none; }
+#sometime_in_august h5 {
+  font-size: 25px; }
+#sometime_in_august .comment_group {
+  padding-top: 100px; }
+  #sometime_in_august .comment_group ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px; }
 #sometime_in_august blockquote p {
   font-family: "Cookie", Helvetica, sans-serif;
   text-align: center;
@@ -49,8 +54,10 @@
     font-size: 16px;
     color: #ffad33; }
 
-#letters_from_monte p, #letters_from_monte table {
-  padding-top: 80px; }
+#letters_from_monte p, #letters_from_monte h5 {
+  padding-top: 50px; }
+#letters_from_monte h5 {
+  font-size: 25px; }
 #letters_from_monte blockquote p {
   font-family: "Cookie", Helvetica, sans-serif;
   text-align: center;
@@ -63,23 +70,30 @@
     color: #ffad33; }
 #letters_from_monte span {
   padding-top: 75px; }
-#letters_from_monte table td {
-  border: 5px;
-  padding-top: 80px; }
+#letters_from_monte .comment_group {
+  padding-top: 100px; }
+  #letters_from_monte .comment_group table td {
+    border: 5px;
+    padding: 10px; }
 
 #two_lovers p {
   padding-top: 50px; }
-#two_lovers ul li {
-  display: inline-block;
-  list-style-type: none; }
+#two_lovers .comment_group {
+  padding-top: 25px; }
+  #two_lovers .comment_group ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 5px; }
 
 #the_realm h4 {
   color: black;
   font-family: "Just Another Hand", Helvetica, sans-serif; }
 #the_realm p {
-  font-size: 18px;
+  font-size: 14px;
   color: black;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
+#the_realm .pictures_display {
+  padding-top: 30px; }
 
 .float_right {
   float: right; }

@@ -70,15 +70,25 @@ $line-height: 160%;
 }
 
 #sometime_in_august {
+  
   p, h5 {
     padding-top: 50px;
   }
-  ul {
-    li {
-      display: inline-block;
-      list-style-type: none;
-    }
+  h5 {
+    font-size: 25px;
   }
+  .comment_group {
+  padding-top: 100px;
+    ul {
+      li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 5px;
+      }
+    }  
+  }
+  
+  
 
 
   blockquote {
@@ -100,10 +110,14 @@ $line-height: 160%;
 }
 
 #letters_from_monte {
-  p, table {
-    padding-top: 80px;
+  p, h5 {
+    padding-top: 50px;
   }
    
+  h5 {
+    font-size: 25px;
+  } 
+
   blockquote {
     p {
     font-family: $quote-text-font;
@@ -124,9 +138,12 @@ $line-height: 160%;
     
   }
 
-  table td {
+  .comment_group {
+    padding-top: 100px;
+    table td {
     border: 5px;
-    padding-top: 80px;
+    padding: 10px;
+    }
   }
 }
 
@@ -135,12 +152,16 @@ $line-height: 160%;
     padding-top: 50px;
   }
 
-  ul {
-    li {
-      display: inline-block;
-      list-style-type: none;
-      a {
+  .comment_group {
+    padding-top: 25px;
+    ul {
+      li {
+        display: inline-block;
+        list-style-type: none;
+        padding: 5px;
+        a {
 
+        }
       }
     }
   }
@@ -154,9 +175,13 @@ $line-height: 160%;
 
   }   
   p {
-    font-size: 18px;
+    font-size: 14px;
     color: black;
     font-family: $text-font;
+  }
+
+  .pictures_display {
+    padding-top: 30px;
   }
 }
 

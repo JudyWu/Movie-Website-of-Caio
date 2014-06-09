@@ -15,9 +15,7 @@ $(document).ready(function() {
 		});
 	});
 
-	$('.remove-highlight').waypoint(function() {
-		$('.highlight').removeClass('highlight');
-	});
+	
      
     $('#hidden_comment_biography').css('display', 'none');
 	$('#portrait_biograghy').hover(function() {
