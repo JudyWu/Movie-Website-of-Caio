@@ -38,8 +38,6 @@
 @media screen and (orientation: landscape) {
   max-height: 100%; }
 #biography {
-  max-height: 100%;
-  max-width: 100%;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-size: 16px;
   color: white;
@@ -48,7 +46,9 @@
   #biography h2 {
     font-family: futura;
     color: #ff9900;
-    font-size: 80px; }
+    font-size: 80px;
+    max-height: 100%;
+    max-width: 100%; }
   #biography a {
     font-family: futura;
     font-size: 14px;
@@ -137,7 +137,9 @@
     font-family: futura;
     font-size: 80px;
     color: #ff9900;
-    padding: 20px 5px 40px 5px; }
+    padding: 20px 5px 40px 5px;
+    max-height: 100%;
+    max-width: 100%; }
   .content_pages h4 {
     font-family: futura;
     font-size: 50px; }

@@ -94,8 +94,6 @@ $line-height: 160%;
 
 
 #biography {
-  max-height: 100%; 
-  max-width: 100%;
   font-family: $text-font;
   font-size: 16px;
   color: $content-text-color;
@@ -107,6 +105,8 @@ $line-height: 160%;
     font-family: $header-font;
     color: $highlight-color;
     font-size: 80px;
+    max-height: 100%; 
+    max-width: 100%;
   }
   a {
     font-family: $header-font;
@@ -268,6 +268,8 @@ $line-height: 160%;
     font-size: 80px;
     color: #ff9900;
     padding: 20px 5px 40px 5px;
+    max-height: 100%; 
+    max-width: 100%;
     
   }
   
