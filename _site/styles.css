@@ -55,8 +55,8 @@
     color: #ffad33; }
 
 @media (max-width: 480px) {
-  body {
-    font-size: 11px; }
+  body h2 {
+    font-size: 14px; }
 
   .hidden-phone {
     display: block; } }
