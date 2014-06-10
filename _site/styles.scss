@@ -80,15 +80,15 @@ $line-height: 160%;
 }
 
 @media screen and (orientation: portrait) {
-  #content img {
+   
       max-width: 100%;
-  }
+  
 }
 
 @media screen and (orientation: landscape) {
-  #content img {
+  
       max-height: 100%;
-  }
+  
 }
 
 
