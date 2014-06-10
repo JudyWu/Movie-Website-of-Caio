@@ -1,5 +1,8 @@
 $(document).ready(function() {
 
+    
+    //$('.collapse').collapse();
+
 
 	$('.my-sticky-element').waypoint('sticky');
 
