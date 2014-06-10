@@ -54,6 +54,12 @@
     font-size: 14px;
     color: #ffad33; }
 
+@media (max-width: 480px) {
+  body {
+    font-size: 11px; }
+
+  .hidden-phone {
+    display: block; } }
 #sometime_in_august p, #sometime_in_august h5 {
   padding-top: 50px; }
 #sometime_in_august h5 {
