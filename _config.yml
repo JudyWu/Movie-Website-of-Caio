@@ -4,7 +4,7 @@ description: " "
 url: "http://localhost:4000" 
 baseurl: "/Movie-Website-of-Caio"
 
-paginate: 20 
+paginate: 30 
 
 markdown: rdiscount 
 permalink: pretty 
