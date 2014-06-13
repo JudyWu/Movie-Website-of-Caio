@@ -3,9 +3,9 @@ $nav-font: 'Just Another Hand', Helvetica, sans-serif; // Google font 'Tangerine
 $text-font: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;//Arial, "Helvetica neue", Helvetica, sans-serif; //Georgia, Times, "Times New Roman", serif;//Cambria, Georgia, serif; //For all the text 
 $quote-text-font: 'Cookie', Helvetica, sans-serif;//$header-font: Papyrus, fantasy;
 
-$background-color: #333; //black
-$content-text-color: white;
-$highlight-color: #ff9900;//orange
+$background-color: #060606;//#333;black
+$content-text-color: #999999;//white;
+$highlight-color: white;//#ff9900;orange
 
 
 $page-padding: 80px 25px;
@@ -44,7 +44,7 @@ body {
           display: block;
           line-height: 120%;
           padding: 1em 0.5em;
-          color: white;
+          color: $content-text-color;
 
          
         }
@@ -61,10 +61,6 @@ body {
 }
 
 
-#content {
-
-}
-
 
 
 #biography {
@@ -76,15 +72,23 @@ body {
   
 
   h2 {
-    font-family: $header-font;
-    color: $highlight-color;
-    font-size: 9vw;
+    
+    font-size: 11vw;
+    -webkit-text-stroke: 5px white;
+    color: black;
+    font-family: $nav-font;
+    // text-shadow:
+    //    3px 3px 0 $highlight-color,
+    //  -1px -1px 0 $highlight-color,  
+    //   1px -1px 0 $highlight-color,
+    //   -1px 1px 0 $highlight-color,
+    //    1px 1px 0 $highlight-color;
 
   }
   a {
     font-family: $header-font;
-    
-    color: lighten($highlight-color, 10%);
+    -webkit-text-stroke: 1px white;
+    color: black;
   }
 
   img {
@@ -106,14 +110,18 @@ body {
     max-height: 100%;
   }
   h2 {
-    font-size: 6vw;
-    font-size: 11vh;
+    font-size: 10vw;
+    font-size: 15vh;
+    font-family: $nav-font;
+    -webkit-text-stroke: 5px white;
+    color: black;
   }
 
   h5 {
     font-size: 2vw;
     font-size: 3vh;
     padding: 4vh;
+    color: $content-text-color;
   }
   .comment_group {
     ul {
@@ -134,6 +142,7 @@ body {
     font-size: 4.5vw;
     font-size: 6vh;
     padding-top: 50px;
+    color: $content-text-color;
     } 
     footer {
     float: right;
@@ -148,21 +157,27 @@ body {
 }
 
 #letters_from_monte {
-  p, h5 {
-    padding-top: 5vh;
+  h2 {
+    font-family: $nav-font;
+    font-size: 18vw;
+    font-size: 18vh;
+    -webkit-text-stroke: 5px white;
+    color: black;
   }
-   
   h5 {
-    font-size: 5vw;
-    font-size: 5vh;
+    font-size: 4vw;
+    font-size: 4vh;
+    padding-top: 5vh;
+    color: $content-text-color;
   } 
 
   blockquote {
     p {
     font-family: $quote-text-font;
     text-align: center; 
-    font-size: 9vh;
-    font-size: 10vw;
+    font-size: 5vh;
+    font-size: 7vw;
+    color: $content-text-color;
     } 
     footer {
     float: right;
@@ -179,7 +194,7 @@ body {
   }
 
   .comment_group {
-    padding-top: 5vh;
+    padding-top: 3vh;
     table td {
     border: 0.5vw;
     padding: 2vh;
@@ -189,17 +204,28 @@ body {
 }
 
 #two_lovers {
-  p {
-    padding-top: 5vh;
-  }
   
+  h2 {
+    font-size: 18vw;
+    font-size: 19vh;
+    font-family: $nav-font;
+    -webkit-text-stroke: 5px white;
+    color: black;
+  }
   img {
-    // max-width: 100%;
-    // max-height: 100%;
+   
+    max-height: 100%;
+  }
 
+  h5{ 
+    padding: 2vh;
+    font-size: 10vh;
+    font-size: 1.5vw;
+    color: $content-text-color;
   }
   .comment_group {
-    padding-top: 5vh;
+    padding: 3vh;
+    
     ul {
       li {
         display: inline-block;
@@ -215,11 +241,25 @@ body {
 }
 
 #the_realm  {
+  h2 {
+    font-size: 9vh;
+    font-size: 9vw;
+    font-family: $nav-font;
+    -webkit-text-stroke: 5px white;
+    color: black;
+  }
+
   h4 {
     color: black;
     font-family: $nav-font;
 
   }   
+
+  h5 {
+    font-size: 1vh;
+    font-size: 1.5vw;
+
+  }
   p {
     font-size: 3vw;
     font-size: 3vh;
@@ -228,7 +268,7 @@ body {
   }
 
   .pictures_display {
-    padding-top: 3vh;
+    padding-top: 2vh;
   }
 }
 
@@ -304,8 +344,11 @@ a:hover {
 
 
 .highlight {
-  background: $highlight-color;
-  color: black !important; 
+  color: $highlight-color !important; 
+  font-size: 5vw;
+  font-size: 5vh;
+  -webkit-text-stroke: 1px white;
+  color: black;
 }
 
 
@@ -319,17 +362,6 @@ a:hover {
   left: 0;
   bottom: 0;
   
-
-}
-#hidden_comment_biography {
-  p{
-    // height: 380px;
-    max-height: 100%;
-  }
-} 
-
-.display-visible {
-  display: visible;
 }
 
 
