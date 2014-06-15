@@ -132,7 +132,7 @@ body {
     font-size: 10vw;
     font-size: 15vh;
     font-family: $nav-font;
-    -webkit-text-stroke: 5px #222;
+    //-webkit-text-stroke: 5px #222;
     color: white;
   }
 
@@ -180,7 +180,7 @@ body {
     font-family: $nav-font;
     font-size: 18vw;
     font-size: 18vh;
-    -webkit-text-stroke: 5px #222;
+    //-webkit-text-stroke: 5px #222;
     color: white;
   }
   h5 {
@@ -228,7 +228,7 @@ body {
     font-size: 18vw;
     font-size: 19vh;
     font-family: $nav-font;
-    -webkit-text-stroke: 5px #222;
+    //-webkit-text-stroke: 5px #222;
     color: white;
   }
   img {
@@ -261,10 +261,10 @@ body {
 
 #the_realm  {
   h2 {
-    font-size: 9vh;
-    font-size: 9vw;
+    font-size: 10vh;
+    font-size: 10vw;
     font-family: $nav-font;
-    -webkit-text-stroke: 5px #222;
+    //-webkit-text-stroke: 5px #222;
     color: white;
   }
 
@@ -408,7 +408,7 @@ a:hover {
   color: $highlight-color !important; 
   font-size: 5vw;
   font-size: 5vh;
-  -webkit-text-stroke: 1px white;
+  //-webkit-text-stroke: 1px white;
   color: black;
 }
 
