@@ -1,19 +1,22 @@
 body {
   font-size: 100%; }
 
-#main {
+#home {
   width: 100%;
-  height: 100%; }
-  #main nav {
+  height: 100%;
+  background: black;
+  padding-top: 20px; }
+  #home nav {
     font-family: "Just Another Hand", Helvetica, sans-serif; }
-    #main nav ul {
+    #home nav ul {
+      padding-top: 50px;
       display: inline-block;
       list-style-type: none; }
-      #main nav ul li {
+      #home nav ul li {
         font-size: 4vw;
         font-size: 4vh;
         text-align: left; }
-        #main nav ul li a {
+        #home nav ul li a {
           display: block;
           line-height: 120%;
           padding: 1em 0.5em;
@@ -25,26 +28,21 @@ body {
 
 #biography {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-size: 2em;
+  font-size: 1.7em;
   color: #999999;
   line-height: 160%;
   letter-spacing: 0.5px; }
   #biography h2 {
     font-size: 11vw;
-    -webkit-text-stroke: 5px white;
-    color: black;
+    text-shadow: 0px 1px 1px #4d4d4d;
+    color: white;
     font-family: "Just Another Hand", Helvetica, sans-serif; }
   #biography a {
     font-family: futura;
-    -webkit-text-stroke: 1px white;
-    color: black; }
+    color: white;
+    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
   #biography img {
     max-height: 100%; }
-
-.scroll_comment {
-  width: 20em;
-  height: 25em;
-  overflow: auto; }
 
 #sometime_in_august img {
   max-height: 100%; }
@@ -52,8 +50,8 @@ body {
   font-size: 10vw;
   font-size: 15vh;
   font-family: "Just Another Hand", Helvetica, sans-serif;
-  -webkit-text-stroke: 5px white;
-  color: black; }
+  -webkit-text-stroke: 5px #222;
+  color: white; }
 #sometime_in_august h5 {
   font-size: 2vw;
   font-size: 3vh;
@@ -82,8 +80,8 @@ body {
   font-family: "Just Another Hand", Helvetica, sans-serif;
   font-size: 18vw;
   font-size: 18vh;
-  -webkit-text-stroke: 5px white;
-  color: black; }
+  -webkit-text-stroke: 5px #222;
+  color: white; }
 #letters_from_monte h5 {
   font-size: 4vw;
   font-size: 4vh;
@@ -114,8 +112,8 @@ body {
   font-size: 18vw;
   font-size: 19vh;
   font-family: "Just Another Hand", Helvetica, sans-serif;
-  -webkit-text-stroke: 5px white;
-  color: black; }
+  -webkit-text-stroke: 5px #222;
+  color: white; }
 #two_lovers img {
   max-height: 100%; }
 #two_lovers h5 {
@@ -134,8 +132,8 @@ body {
   font-size: 9vh;
   font-size: 9vw;
   font-family: "Just Another Hand", Helvetica, sans-serif;
-  -webkit-text-stroke: 5px white;
-  color: black; }
+  -webkit-text-stroke: 5px #222;
+  color: white; }
 #the_realm h4 {
   color: black;
   font-family: "Just Another Hand", Helvetica, sans-serif; }
@@ -143,12 +141,31 @@ body {
   font-size: 1vh;
   font-size: 1.5vw; }
 #the_realm p {
-  font-size: 3vw;
-  font-size: 3vh;
+  font-size: 1.5em;
   color: black;
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
 #the_realm .pictures_display {
   padding-top: 2vh; }
+
+#borges_obscurus p {
+  font-size: 1.5em; }
+#borges_obscurus img {
+  max-height: 100%;
+  height: 300px;
+  width: 250px; }
+#borges_obscurus a {
+  font-size: 5vw;
+  font-size: 4vh;
+  font-family: "Just Another Hand", Helvetica, sans-serif; }
+#borges_obscurus .panel-body {
+  background: black;
+  color: white; }
+#borges_obscurus .panel-footer {
+  color: black;
+  font-size: 12px; }
+
+#contact_page {
+  font-size: 1.5em; }
 
 .float_right {
   float: right; }
@@ -160,8 +177,7 @@ body {
   padding: 80px 25px; }
   .vidoe_pages iframe {
     height: 100%;
-    width: 100%;
-    overflow: visible; }
+    width: 100%; }
 
 .videoWrapper {
   position: relative;
@@ -191,6 +207,10 @@ body {
     font-family: futura;
     font-size: 7vw;
     font-size: 6vh; }
+  .content_pages .bottom-icons {
+    flow: center; }
+    .content_pages .bottom-icons button {
+      padding: 0.5em; }
 
 a:hover {
   text-decoration: none; }
@@ -201,11 +221,3 @@ a:hover {
   font-size: 5vh;
   -webkit-text-stroke: 1px white;
   color: black; }
-
-.slide {
-  position: relative; }
-
-.slide .inner {
-  position: absolute;
-  left: 0;
-  bottom: 0; }
