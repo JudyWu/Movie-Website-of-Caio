@@ -39,10 +39,13 @@ body {
     font-family: "Just Another Hand", Helvetica, sans-serif; }
   #biography a {
     font-family: futura;
-    color: white;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; }
+    color: white; }
   #biography img {
     max-height: 100%; }
+  #biography .space_140 {
+    padding-top: 140px; }
+  #biography .space_30 {
+    padding-top: 30px; }
 
 #sometime_in_august img {
   max-height: 100%; }
@@ -142,9 +145,14 @@ body {
   font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; }
 #the_realm .pictures_display {
   padding-top: 2vh; }
+#the_realm a {
+  z-index: 100; }
 
 #borges_obscurus p {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+  color: white; }
+#borges_obscurus .extra_padding p {
+  padding-top: 30px; }
 #borges_obscurus img {
   max-height: 100%;
   height: 300px;
@@ -159,12 +167,14 @@ body {
 #borges_obscurus .panel-footer {
   color: black;
   font-size: 12px; }
+#borges_obscurus .thumbnail {
+  background: black;
+  border: none; }
+#borges_obscurus .white_glow {
+  box-shadow: 70px 70px 50px #fff; }
 
 #contact_page {
   font-size: 1.5em; }
-
-.float_right {
-  float: right; }
 
 .vidoe_pages {
   background: black;
@@ -204,7 +214,7 @@ body {
     font-size: 7vw;
     font-size: 6vh; }
   .content_pages .bottom-icons {
-    flow: center; }
+    float: center; }
     .content_pages .bottom-icons button {
       padding: 0.5em; }
 

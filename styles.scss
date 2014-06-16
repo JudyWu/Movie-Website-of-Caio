@@ -31,9 +31,7 @@ body {
   padding-top: 20px;
   
   nav {
-    
     font-family: $nav-font;
-
     ul {
       padding-top: 50px;
       display: inline-block;
@@ -43,14 +41,13 @@ body {
       li{
         font-size: 4vw;
         font-size: 4vh;
+        //font-size: 3em;
         text-align: left;
         a{
           display: block;
           line-height: 120%;
           padding: 1em 0.5em;
-          color: $content-text-color;
-
-         
+          color: $content-text-color;        
         }
       }
     }  
@@ -58,7 +55,6 @@ body {
 }
 
 .navbar {
-
   background: transparent !important;
   border: transparent;
   
@@ -76,53 +72,34 @@ body {
   
 
   h2 {
-    
+    //font-size: 6em;
     font-size: 11vw;
-    // -webkit-text-stroke: 5px white;
-    // color: black;
-    // color: white;
-    // text-shadow:
-    // -1px -1px 0 #000,
-    // 1px -1px 0 #000,
-    // -1px 1px 0 #000,
-    // 1px 1px 0 #000;
+    
     text-shadow: 0px 1px 1px #4d4d4d;
     color: white;
-    //font: 80px 'LeagueGothicRegular';
-    font-family: $nav-font;
-    // text-shadow:
-    //    3px 3px 0 $highlight-color,
-    //  -1px -1px 0 $highlight-color,  
-    //   1px -1px 0 $highlight-color,
-    //   -1px 1px 0 $highlight-color,
-    //    1px 1px 0 $highlight-color;
-
+    font-family: $nav-font; //'LeagueGothicRegular'; -- looks pretty good too
+    // -webkit-text-stroke: 5px white; -- outlined text only work in Chrome
+  
   }
   a {
     font-family: $header-font;
-    // -webkit-text-stroke: 1px white;
-    // color: black;
     color: white;
-    text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
   }
 
   img {
 
     max-height: 100%; 
+  }
 
-    
+  .space_140 {
+    padding-top: 140px;
+  }
+
+  .space_30 {
+    padding-top: 30px;
   }
 }
 
-// .scroll_comment {
-//   width: 20em;
-//   height: 25em;
-//   overflow: auto;
-//   }
 
 #sometime_in_august {
   img {
@@ -132,7 +109,6 @@ body {
     font-size: 10vw;
     font-size: 15vh;
     font-family: $nav-font;
-    //-webkit-text-stroke: 5px #222;
     color: white;
   }
 
@@ -180,7 +156,6 @@ body {
     font-family: $nav-font;
     font-size: 18vw;
     font-size: 18vh;
-    //-webkit-text-stroke: 5px #222;
     color: white;
   }
   h5 {
@@ -228,7 +203,6 @@ body {
     font-size: 18vw;
     font-size: 19vh;
     font-family: $nav-font;
-    //-webkit-text-stroke: 5px #222;
     color: white;
   }
   img {
@@ -260,11 +234,11 @@ body {
 }
 
 #the_realm  {
+
   h2 {
     font-size: 10vh;
     font-size: 10vw;
     font-family: $nav-font;
-    //-webkit-text-stroke: 5px #222;
     color: white;
   }
 
@@ -288,6 +262,10 @@ body {
   .pictures_display {
     padding-top: 2vh;
   }
+  
+  a {
+    z-index: 100;
+  }
 }
 
 
@@ -295,14 +273,17 @@ body {
 #borges_obscurus {
   p {
     font-size: 1.5em;
+    color: white;
+  }
+
+  .extra_padding p {
+    padding-top: 30px;  
   }
 
   img {
     max-height: 100%;
     height: 300px;
     width: 250px;
-
-
   }
  
   a {
@@ -320,15 +301,20 @@ body {
     color: black;
     font-size: 12px;
   }
+
+  .thumbnail {
+    background: black;
+    border: none;
+  }
+  .white_glow {
+    // -moz-box-shadow: 0 0 5px #fff;
+    // -webkit-box-shadow: 0 0 5px #fff;
+    box-shadow: 70px 70px 50px #fff;
+  }
 }
 
 #contact_page {
   font-size: 1.5em;
-}
-
-
-.float_right {
-  float: right;
 }
 
 
@@ -339,14 +325,11 @@ body {
   text-align: center; 
   padding: $page-padding;
 
-  
-
   iframe {
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 
   }
- 
 }
 
 
@@ -356,6 +339,7 @@ body {
   padding-top: 25px;
   height: 0;
 }
+
 .videoWrapper iframe {
   position: absolute;
   top: 0;
@@ -371,16 +355,12 @@ body {
   line-height: $line-height;
   letter-spacing: $letter-spacing;
   font-family: $text-font;
-  // font-size: 16px;
+
 
 
   h2 {
     font-family: $header-font;
-  
     color: #ff9900;
-    // padding: 20px 5px 40px 5px;
-    
-    
   }
   
   h4 {
@@ -390,11 +370,10 @@ body {
   }
   
   .bottom-icons {
-    flow: center; 
-
+    float: center; 
     button {
     padding: 0.5em;
-  }
+    }
   }
   
 }
@@ -408,21 +387,5 @@ a:hover {
   color: $highlight-color !important; 
   font-size: 5vw;
   font-size: 5vh;
-  //-webkit-text-stroke: 1px white;
   color: black;
 }
-
-
-
-// .slide {
-//   position: relative;
-// }
-
-// .slide .inner {
-//   position: absolute;
-//   left: 0;
-//   bottom: 0;
-  
-// }
-
-
